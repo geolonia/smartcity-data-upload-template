@@ -20,3 +20,4 @@ jobs:
         with:
           INPUT_DIR: './'
           MUNICIPALITY_ID: 'sample-city'
+          MUNICIPALITY_CODE: '37201'
