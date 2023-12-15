@@ -1,5 +1,8 @@
 name: Build and Deploy
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   build-and-deploy:
@@ -22,5 +25,5 @@ jobs:
       - name: 'Create SmartCity Vector Tile'
         uses: geolonia/smartcity-data-upload-action@main
         with:
-          INPUT_DIR: './'
+          INPUT_DIR: './data'
           MUNICIPALITY_CODE: '37201'
