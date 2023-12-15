@@ -9,8 +9,7 @@ Excel / CSV / GeoJSON / Shape ファイルをスマートシティ用のタイ�
 
 * [[Use this template]](https://github.com/geolonia/smartcity-data-upload-template/generate) ボタンをクリックして、このテンプレートを自分のリポジトリにコピーしてください。
 * [設定ファイル](https://github.com/geolonia/smartcity-data-upload-template/blob/main/.github/workflows/build.yml)にアクセスし、以下を書き換えて下さい。
-  * `MUNICIPALITY_ID`: ユニークな市区町村の値。ファイル名として使用されます。（例： takamatsu-city から takamatsu-city.pmtiles が生成されます）
-  * `MUNICIPALITY_CODE`: 市区町村コード
+  * `MUNICIPALITY_CODE`: 全国地方公共団体コード (5桁) （例: `37201`）
  
 ### **:black_medium_square: データを追加する**
 * Excel / CSV / GeoJSON / Shape ファイルをリポジトリにアップロードして下さい。
