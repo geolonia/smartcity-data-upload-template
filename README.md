@@ -12,7 +12,7 @@ Excel / CSV / GeoJSON / Shape ファイルをスマートシティ用のタイ�
   * `MUNICIPALITY_CODE`: 全国地方公共団体コード (5桁) （例: `37201`）
  
 ### **:black_medium_square: データを追加する**
-* Excel / CSV / GeoJSON / Shape ファイルをリポジトリにアップロードして下さい。
+* Excel / CSV / GeoJSON / Shape ファイルを [data](https://github.com/geolonia/smartcity-data-upload-template/tree/main/data) リポジトリにアップロードして下さい。
 * ディレクトリ名、ファイル名がそのままスマートマップのサイドバーの階層になります。
   * ※ 順番を指定できないので改善する
 
