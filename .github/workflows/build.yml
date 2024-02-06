@@ -26,4 +26,5 @@ jobs:
         uses: geolonia/smartcity-data-upload-action@main
         with:
           INPUT_DIR: './data'
+          NAME: 'SmartCity テンプレート'
           MUNICIPALITY_CODE: '37201'
