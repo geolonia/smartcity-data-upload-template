@@ -26,6 +26,10 @@ Excel / CSV / GeoJSON / Shape ファイルをスマートシティ用のタイ�
 ```
 ![スクリーンショット 2023-12-15 14 23 47 2](https://github.com/geolonia/smartcity-data-upload-template/assets/8760841/f1302fe1-6a16-4b43-b630-e26836f4d96d)
 
+### **:black_medium_square: 結果を地図で確認する**
+
+「Actions」タブをクリックし最新のログをクリックして下さい。ログの中に出力されているプレビューURLをクリックすると結果が地図で確認できます。
+<img width="1355" alt="スクリーンショット 2024-06-20 17 30 30" src="https://github.com/geolonia/smartcity-data-upload-template/assets/8760841/bb707698-38ac-48be-b21d-83d8e9f6c332">
 
 ### **:black_medium_square: その他**
 * 生成した PMTiles を https://geolonia.github.io/smartcity-smartmap/ にドラッグ& ドロップする事で、プレビュー出来ます。
