@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   build-and-deploy:
@@ -23,8 +26,14 @@ jobs:
           aws-region: ap-northeast-1
 
       - name: 'Create SmartCity Vector Tile'
+        id: create-smartcity-tile
         uses: geolonia/smartcity-data-upload-action@main
         with:
           INPUT_DIR: './data'
           NAME: 'SmartCity テンプレート'
           MUNICIPALITY_CODE: '37201'
+
+      - name: Smartmap
+        run: |
+            echo "下記のURLでプレビューを開けます"
+            echo https://geolonia.github.io/smartcity-smartmap/#/?endpointUrl=${{ steps.create-smartcity-tile.outputs.pmtiles_url }}
